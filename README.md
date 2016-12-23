@@ -1,12 +1,18 @@
 # testla
-Express app that mimics the Tesla REST API for testing
+Express app that mimics the Tesla REST API for local testing and experimentation.
 
-# Tesla API Documentation
+## Tesla API Documentation
 
 The Tesla REST API encapusulated by this library was documented through the collaboration of many Tesla owners.  Please
 thank and support them for their efforts.  The current REST API documentation can be found at:
 
     http://docs.timdorr.apiary.io/
+
+## Known Issues
+
+1. Auth always succeeds
+2. Model X not yet supported
+3. No support for multiple vehicles
 	
 # testla.js
 
