@@ -1,4 +1,8 @@
 # teslamock
+
+[![Version](http://img.shields.io/npm/v/teslamock.png)](https://www.npmjs.org/package/teslamock)
+[![License](https://img.shields.io/npm/l/teslamock.svg)](https://github.com/mseminatore/teslamock/blob/master/LICENSE)
+
 Express app that mimics (or mocks) the Tesla REST API for local testing and experimentation.
 
 ## Tesla API Documentation
