@@ -1,5 +1,5 @@
-# testla
-Express app that mimics the Tesla REST API for local testing and experimentation.
+# teslamock
+Express app that mimics (or mocks) the Tesla REST API for local testing and experimentation.
 
 ## Tesla API Documentation
 
@@ -14,7 +14,7 @@ thank and support them for their efforts.  The current REST API documentation ca
 2. Model X not yet supported
 3. No support for multiple vehicles
 	
-# testla.js
+# teslamock.js
 
 This sample is an Express app that mimics the Tesla servers and implements the full REST API surface area.  There is now a
 web interface for this app.  Point your web browser to http://127.0.0.1:3000.
@@ -29,7 +29,7 @@ must explicitly npm install JADE under Express.
 
 Usage:
 
-    node testla.js [options]
+    node teslamock.js [options]
 
     Options:
 	
