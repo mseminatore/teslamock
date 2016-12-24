@@ -1,5 +1,5 @@
 {
-  "name": "testla",
+  "name": "teslamock",
   "version": "1.0.0",
   "description": "Express app that mimics the Tesla REST API for testing ",
   "dependencies": {
@@ -12,13 +12,13 @@
     "morgan": "^1.7.0",
     "serve-favicon": "^2.3.0"
   },
-  "main": "testla.js",
+  "main": "teslamock.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mseminatore/testla.git"
+    "url": "https://github.com/mseminatore/teslamock.git"
   },
   "keywords": [
     "Tesla",
@@ -30,11 +30,11 @@
   ],
   "author": {
     "name": "Mark Seminatore",
-    "url": "https://github.com/mseminatore/testla"
+    "url": "https://github.com/mseminatore/teslamock"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mseminatore/testla/issues"
+    "url": "https://github.com/mseminatore/teslamock/issues"
   },
-  "homepage": "https://github.com/mseminatore/testla"
+  "homepage": "https://github.com/mseminatore/teslamock"
 }

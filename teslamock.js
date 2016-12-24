@@ -1,8 +1,8 @@
 //==========================================================================
 // This Express sample demonstrates mocking the TeslaJS REST API for testing
 //
-// Github: https://github.com/mseminatore/TeslaJS
-// NPM: https://www.npmjs.com/package/teslajs
+// Github: https://github.com/mseminatore/teslamock
+// NPM: https://www.npmjs.com/package/teslamock
 //
 // Copyright (c) 2016 Mark Seminatore
 //
@@ -680,7 +680,7 @@ var port = program.port || 3000;
 
 app.listen(port, function () {
     var str = "http://127.0.0.1:" + port;
-    console.log("TesTla".cyan + " listening at " + str.green);
+    console.log("TeslaMock".cyan + " listening at " + str.green);
 });
 
 //========================================

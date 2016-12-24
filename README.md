@@ -16,7 +16,7 @@ thank and support them for their efforts.  The current REST API documentation ca
 	
 # teslamock.js
 
-This sample is an Express app that mimics the Tesla servers and implements the full REST API surface area.  There is now a
+This is a simple Express app that mimics the Tesla servers and implements the full REST API surface area.  There is now a
 web interface for this app.  Point your web browser to http://127.0.0.1:3000.
 
 >Note: the app is still fairly basic and in many cases simply returns success results.  It does not validate input 
