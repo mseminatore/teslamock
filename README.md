@@ -5,6 +5,30 @@
 
 Express app that mimics (or mocks) the Tesla REST API for local testing and experimentation.
 
+# Installation
+
+In order to use the app and/or samples you must first download and install [NodeJS](http://nodejs.org).
+
+An installable module for [npm](http://npmjs.org) is now available.  To download and install the library 
+and all of its dependencies to a local project directory use the following:
+
+    npm install teslamock
+
+You may also install directly from the GitHub [source](https://github.com/mseminatore/teslamock).  Either 
+download and unzip the source, or clone the repository.
+
+>Remember, whether you install via npm, ZIP source or Git clone you must install the dependencies before using teslamock.
+
+To install dependencies via npm, from the root level of the library directory type:
+
+    npm install
+
+This app is under development.  New features and bug fixes are being added periodically.  To ensure 
+that you have the very latest version of teslamock and it's dependencies be sure to update frequently. To do so,
+from your project directory type:
+
+    npm update
+
 ## Tesla API Documentation
 
 The Tesla REST API encapusulated by this library was documented through the collaboration of many Tesla owners.  Please
