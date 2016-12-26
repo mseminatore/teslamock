@@ -41,6 +41,7 @@ thank and support them for their efforts.  The current REST API documentation ca
 1. Auth always succeeds
 2. Model X not yet supported
 3. No support for multiple vehicles
+4. Migration from JADE to PUG incomplete
 	
 # teslamock.js
 
