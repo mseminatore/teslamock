@@ -7,8 +7,20 @@ block content
   h2 Charge State
 
   form(method="POST", action="/chargeState")
-    p Charging State: 
-      input(type='text', name="charging_state", value = charging_state)
+    p Charging State:
+      select(name="charging_state", value = charging_state)
+        if (charging_state == "Complete")
+          option(selected) Complete
+        else
+          option Complete
+        if (charging_state == "Charging")
+          option(selected) Charging
+        else
+          option Charging
+        if (charging_state == "Disconnected")
+          option(selected) Disconnected
+        else
+          option Disconnected
     p Charger Voltage:
       input(type='text', name="charger_voltage", value = charger_voltage)
     p Charger Current:
