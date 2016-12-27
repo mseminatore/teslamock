@@ -36,9 +36,9 @@ thank and support them for their efforts.  The current REST API documentation ca
 
     http://docs.timdorr.apiary.io/
 
-## What's New
+## What's New!
 
-1. Migration from JADE to PUG should be complete.  Please report any issues
+1. In **1.02** the migration from JADE to PUG should now be complete.  Please report any issues.
 
 ## Known Issues
 
