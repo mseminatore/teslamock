@@ -22,7 +22,7 @@ block content
     p Battery Percent:
       input(type='text', name="battery_level", value = battery_level)
     p Charge Limit Percent:
-      input(type='text', name="charge_limit_soc", value = charge_limit_soc)
+      input(type='range', name="charge_limit_soc", min=50, max=100, value = charge_limit_soc)
     p Charge Port Open:
       if (charge_port_door_open)
         input(type='checkbox', name="charge_port_door_open", CHECKED)
