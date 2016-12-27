@@ -70,22 +70,22 @@ block content
     
     if (sun_roof_installed)
       p Sunroof Percent Open: 
-        input(type='text', name="sun_roof_percent_open", value='#{sun_roof_percent_open || 0}')
+        input(type='text', name="sun_roof_percent_open", value = sun_roof_percent_open || 0)
     
     p Firmware version:
-      input(type='text', name="car_version", value='#{car_version}')
+      input(type='text', name="car_version", value = car_version)
 
     hr
     h2 Vehicle
     
     p Vehicle Name:
-      input(type='text', name="vehicle_name", value='#{vehicle_name}')
+      input(type='text', name="vehicle_name", value = vehicle_name)
     p Valet Mode:
       if (valet_mode)
         input(type='checkbox', name="valet_mode", CHECKED)
       else
         input(type='checkbox', name="valet_mode")
-    input(type='submit', value='Set')
+    input(type='submit', value='Update')
 
   br
   br

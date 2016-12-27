@@ -11,13 +11,13 @@ block content
 
   form(method="POST", action="/climateState")
     p Inside Temperature: 
-      input(type='text', name="inside_temp", value='#{inside_temp}')
+      input(type='text', name="inside_temp", value = inside_temp)
     p Outside Temperature:
-      input(type='text', name="outside_temp", value='#{outside_temp}')
+      input(type='text', name="outside_temp", value = outside_temp)
     p Driver Temp:
-      input(type='text', name="driver_temp_setting", value='#{driver_temp_setting}')
+      input(type='text', name="driver_temp_setting", value = driver_temp_setting)
     p Passenger Temp:
-      input(type='text', name="passenger_temp_setting", value='#{passenger_temp_setting}')
+      input(type='text', name="passenger_temp_setting", value = passenger_temp_setting)
 
     hr
     h2 Controls
@@ -41,8 +41,8 @@ block content
         input(type='checkbox', name="is_rear_defroster_on")
 
     p Fan Speed:
-      input(type='text', name="fan_status", value='#{fan_status}')
-    input(type='submit', value='Set')
+      input(type='text', name="fan_status", value = fan_status)
+    input(type='submit', value='Update')
 
   br
   br
